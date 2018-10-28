@@ -33,12 +33,16 @@ struct Opt {
 #[derive(Debug, StructOpt)]
 enum Cmd {
     #[structopt(name = "about")]
+    /// Program information
     About,
     #[structopt(name = "launch")]
+    /// List launch events
     Launch {
         #[structopt(short = "n", default_value = "1")]
+        /// Number of launch events to list
         number: u32,
         #[structopt(short = "v")]
+        /// List more details for each event
         verbose: bool,
     },
 }
