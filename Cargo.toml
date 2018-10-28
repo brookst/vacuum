@@ -1,6 +1,6 @@
 [package]
 name = "vacuum"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Tim Brooks <brooks@skoorb.net>"]
 description = "A CLI for listing upcoming spaceflight events"
 homepage = "https://github.com/brookst/vacuum"
